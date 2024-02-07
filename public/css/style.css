@@ -1,5 +1,14 @@
 header, .blog:not(:last-child) {
-    border-bottom: 1px solid #f18383;
+    border-bottom: 5px solid purple;
+  }
+
+  a {
+    font-family: 'Times New Roman', Times, serif;
+    color: chocolate;
+  }
+
+  body {
+    background-color: steelblue;
   }
   
   .no-button {
@@ -7,13 +16,14 @@ header, .blog:not(:last-child) {
     border: none;
     padding: 0;
     cursor: pointer;
-    color: #0b72a1;
+    color: chocolate;
     text-decoration: none;
     font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
   }
   
   .no-button:hover {
-    color: #021b27;
+    color: #065b83;
     text-decoration: underline;
   }
   
